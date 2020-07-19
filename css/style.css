@@ -61,7 +61,14 @@ img{
 
 @media (min-width: 270px) and (max-width: 454px){
 
+.navb{
+	position: absolute;
+	left: 0px;
+	display: inline-block;
+	display: flex;
+	justify-content: center;
 
+}
 .faicons{
 	display: flex;
 	flex-wrap: wrap;
