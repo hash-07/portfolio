@@ -18,3 +18,60 @@ img{
 }
 
 }
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+.fa-download{
+	width: 40%;
+}
+
+
+.icons{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+
+}
+
+
+
+
+@media (min-width: 455px) and (max-width: 768px){
+
+
+.faicons{
+	display: flex;
+	 flex-wrap: wrap;
+  align-content: center;
+	
+	}
+
+	.hashp{
+		align-items: center;
+
+	}
+
+}
+
+
+
+
+@media (min-width: 350px) and (max-width: 454px){
+
+
+.faicons{
+	display: flex;
+	flex-wrap: wrap;
+  align-content: flex-end;
+	
+	}
+
+	.hashp{
+		align-items: center;
+
+	}
+
+}
