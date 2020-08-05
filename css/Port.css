@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	
+}
+
+.icon-bar{
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	z-index: 10;
+}
+
+#puradiv{
+ 	text-decoration: none;
+ 	width: 220px;
+ 	background: #3b5999;
+ 	color: #fff;
+ 	display: flex;
+ 	font-size: 20px;
+ 	justify-content: flex-end;
+ 	align-items: center;
+ 	padding: 5px;
+ 	transform: translateX(-173px);
+	-webkit-transform: translateX(-173px);
+	-ms-transform: translateX(-173px);
+
+     transition: 0.5s linear;
+	-webkit-transition: 0.5s linear;
+	-ms-transition: 0.5s linear;
+}
+
+#itag{
+	padding-left: 20px;
+	font-size: 30px !important;
+	animation: letszoom 3s linear  alternate-reverse infinite;
+}
+
+#puradiv:hover{
+	color: white;
+	transform: translateX(0);
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+}
+
+
+.facebook{
+	background: #3b5998 ;
+}
+
+
+.instagram{
+	background: #e4405f;
+}
+
+
+.linkedin{
+	background: #0077B5 ;
+}
+
+
+.twitter{
+	background: #55acee;
+}
+
+@keyframes letszoom {
+	from{
+		transform: scale(0.8);
+
+	}
+	to{
+		transform: scale(1);
+	}
+}
